@@ -1,7 +1,7 @@
 # ActivityTransformer
-AcT: Activity Transformer for Motion and Floor Change Detection in Indoor Localization.
+## AcT: Activity Transformer for Motion and Floor Change Detection in Indoor Localization.
 
-#Introduction: 
+### Introduction: 
 In this paper, we introduce a new neural model for human activity recognition (HAR) in indoor positioning optimization, called the AcT (short for Activity Transformer) model. The model is a combination of Convolutional Neural Networks (CNNs) and Transformer (Multi-Head Attention) architecture. The AcT model is designed to detect and classify human activities and floor changes using three-axis accelerometer data. The model has output classes for motion, upper floor, lower floor, and static for indoor localization. 
 
 The transformer is particularly important for HAR because it can effectively capture long-range dependencies in sequential data. Human activities often involve complex sequences of movements that can span multiple time steps. The attention mechanism in transformers allows the model to attend to different parts of the input sequence, allowing it to effectively capture these long-range dependencies.
